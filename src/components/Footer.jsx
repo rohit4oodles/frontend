@@ -21,7 +21,10 @@ const Footer = () => {
 
             <LinkGroup header="Blog Resources">
               <NavLink link="/post" label="Latest Posts" />
-              <NavLink link="https://www.linkedin.com/in/rohit-061447249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" label="Meet the Author" />
+              <a href="https://www.linkedin.com/in/rohit-061447249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+  Meet the Author
+</a>
+
               <NavLink link="/about" label="About the Blog" />
               
             </LinkGroup>
